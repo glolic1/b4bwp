@@ -1,2 +1,2 @@
 # b4bwp
-Skobos na infinium template-u.
+Skobos na infinum template-u.
