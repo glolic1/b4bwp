@@ -1,0 +1,35 @@
+.header {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-column-gap: 16px;
+   grid-template-rows: 100%;
+   margin: 0 auto;
+   max-width: 1100px;
+   margin-bottom:-1px;
+   ul{
+       list-style: none;
+       display: grid;
+       grid-template-columns: auto auto auto auto auto;
+       justify-content: space-around;
+       // height: 100%;      
+       margin: 0;
+
+       li{
+           display: flex;
+           height: 100%;
+           align-items: center;
+       }
+
+       li:hover{
+           border-bottom: 3px solid red;
+           background-color: #f0f0f0;
+           
+       }
+   }
+   img{
+       padding-bottom: 1px;
+   }
+}
+.header--container{
+    border-bottom: 1px solid lightgray;
+}

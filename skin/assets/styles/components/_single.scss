@@ -1,0 +1,35 @@
+$btncolor: #de1934;
+
+.single{
+    max-width: 800px;
+    margin:0 auto;
+    text-align: center;
+    
+}
+.entry-utility{
+   display:none;
+}
+.submit--CV{
+    background-color: $btncolor;
+    border:0;
+    padding:10px;
+    color:white;
+}
+[id='11']{
+    
+    box-shadow: 0 0 20px #888888;
+    border: 1px solid black;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:15px;
+}
+
+#wpforms-81-field_3{
+    margin:0 auto;
+    width:100%;
+}
+#wpforms-submit-81{
+    float:right;
+    background-color: #07b651;
+    color:white;
+}

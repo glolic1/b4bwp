@@ -1,0 +1,23 @@
+$bgfooter: #333333;
+
+.footer{
+  
+  background-color: $bgfooter;
+  .footer__container{
+    display:flex;
+    justify-content: space-around;
+    max-width: 1100px;
+  margin:0 auto;
+    ul {
+      list-style: none;
+      h4{
+        color:white;
+      }
+    }
+    .leftpart{
+      color:white;
+      width:50%;
+    }
+  }
+  
+}
